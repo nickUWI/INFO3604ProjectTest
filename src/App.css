@@ -1,0 +1,100 @@
+
+text{
+  color: black;
+}
+.App {
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(111, 181, 184);
+  border-radius: 50px;
+  
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+li a:hover {
+  background-color: #111;
+  color: darkcyan;
+}
+
+li a:active {
+  background-color: black;
+}
+
+.Row{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.inputForm{
+  padding-left: 3%;
+  padding-top: 3%;
+  border-radius: 30px;
+  background-color: darkcyan;
+
+}
+
+input[type = "checkbox"]{
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+
+}
+
+input[type = "text"]{
+  vertical-align: middle;
+}
+
+.button{
+  font-weight: bold;
+  width: 92%;
+  height: 150%;
+  border-radius: 20px;
+  background-color:  #333;
+  color: white;
+  border-color:rgb(21, 91, 92);
+}
+
+.button:hover{
+  background-color: #111;
+  color: darkcyan;
+}
+
+.element{
+  height: 20px;
+  width: 25%;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.returnBox{
+  width: 88%;
+  height: 390px;
+}
+
+.return{
+  border-radius: 10px;
+  
+}
